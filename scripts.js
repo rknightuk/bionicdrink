@@ -56,7 +56,7 @@ $(document).ready(function(){
 			name = name.replace(/[^a-zA-Z ]/g, '');
 		}
 
-		$('.twitter-share').attr('href', 'https://twitter.com/intent/tweet?text=I created my %23bionicdrink, what\'s yours?&url=http://robblewis.me/projects/bionicdrink/%23'+name);
+		$('.twitter-share').attr('href', 'https://twitter.com/intent/tweet?text=I created my %23bionicdrink, what\'s yours?&url=http://code.robblewis.me/bionicdrink/%23'+name);
 		
 		name = name.toLowerCase();
 		name = name.split('');
